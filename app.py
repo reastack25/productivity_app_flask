@@ -2,7 +2,7 @@ from flask import Flask
 from config import Config
 from extensions import db, bcrypt, migrate
 from routes.auth_routes import auth_bp
-# from routes.note_routes import note_bp
+from routes.note_routes import note_bp
 
 def create_app():
     app = Flask(__name__)
