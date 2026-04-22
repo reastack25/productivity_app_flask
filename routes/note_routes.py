@@ -14,7 +14,7 @@ def get_notes():
     page = int(request.args.get("page", 1))
     per_page = 5
 
-    notes = Note.query.filter_by(user_id=user_id)\
+    notes = Note.query.filter_by(user_id=session["user_id"])\
         .paginate(page=page, per_page=per_page, error_out=False)
 
     return jsonify({
