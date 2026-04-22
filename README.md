@@ -1,7 +1,7 @@
 # productivity_app_flask
-# 📝 Flask Notes API (Session-Based Auth)
+#  Flask Notes API (Session-Based Auth)
 
-## 📌 Project Description
+## Project Description
 
 This project is a secure RESTful API built using Flask. It implements full user authentication using **session-based authentication** and allows users to manage a personal notes resource.
 
@@ -16,7 +16,7 @@ This API is designed to integrate with a frontend client that handles authentica
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 * Python 3.8+
 * Flask
@@ -28,7 +28,7 @@ This API is designed to integrate with a frontend client that handles authentica
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 server/
@@ -52,7 +52,7 @@ server/
 
 ---
 
-## 🚀 Installation Instructions
+##  Installation Instructions
 
 ### 1. Clone the repository
 
@@ -106,7 +106,7 @@ flask db upgrade
 
 ---
 
-## 🌱 Seed the Database
+## Seed the Database
 
 ```
 python seed.py
@@ -118,8 +118,7 @@ Creates:
 * Sample notes
 
 ---
-
-## ▶️ Run the Application
+##  Run the Application
 
 ```
 flask run
@@ -133,7 +132,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 This API uses **session-based authentication**:
 
@@ -143,9 +142,9 @@ This API uses **session-based authentication**:
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
-### 🔑 Auth Routes
+###  Auth Routes
 
 #### Signup
 
@@ -180,9 +179,9 @@ Returns current logged-in user.
 
 ---
 
-### 📝 Notes Routes (Protected)
+### Notes Routes (Protected)
 
-⚠️ All routes require authentication
+All routes require authentication
 
 #### Get Notes (Paginated)
 
@@ -210,7 +209,7 @@ DELETE /notes/<id>
 
 ---
 
-## 🔒 Security Features
+##  Security Features
 
 * Passwords hashed using Bcrypt
 * Session-based authentication
@@ -220,7 +219,7 @@ DELETE /notes/<id>
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Use Postman to test endpoints:
 
@@ -238,7 +237,7 @@ Ensure cookies are enabled in Postman for session persistence.
 
 ---
 
-## ⚠️ Common Issues
+##  Common Issues
 
 * Not logged in → Check cookies in Postman
 * No data returned → Ensure database is seeded
@@ -246,7 +245,7 @@ Ensure cookies are enabled in Postman for session persistence.
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * Add JWT authentication
 * Add search and filtering
@@ -255,6 +254,6 @@ Ensure cookies are enabled in Postman for session persistence.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Backend developed as part of a Flask API lab project.
