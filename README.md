@@ -7,10 +7,10 @@ This project is a secure RESTful API built using Flask. It implements full user 
 
 Each user can:
 
-* Sign up and log in securely
-* Create, view, update, and delete their own notes
-* Access only their own data (strict access control)
-* View notes with pagination support
+*Sign up and log in securely
+*Create, view, update, and delete their own notes
+*Access only their own data (strict access control)
+*View notes with pagination support
 
 This API is designed to integrate with a frontend client that handles authentication flows.
 
@@ -57,8 +57,8 @@ server/
 ### 1. Clone the repository
 
 ```
-git clone <your-repo-url>
-cd <repo-name>
+git clone https://github.com/reastack25/productivity_app_flask
+cd productivity_app_flask
 ```
 
 ### 2. Install dependencies
@@ -211,11 +211,11 @@ DELETE /notes/<id>
 
 ##  Security Features
 
-* Passwords hashed using Bcrypt
-* Session-based authentication
-* Route protection with login checks
-* Users can only access their own data
-* Unauthorized access returns proper HTTP status codes
+*Passwords hashed using Bcrypt
+*Session-based authentication
+*Route protection with login checks
+*Users can only access their own data
+*Unauthorized access returns proper HTTP status codes
 
 ---
 
@@ -239,18 +239,18 @@ Ensure cookies are enabled in Postman for session persistence.
 
 ##  Common Issues
 
-* Not logged in → Check cookies in Postman
-* No data returned → Ensure database is seeded
-* Migration errors → Re-run migrate and upgrade
+*Not logged in → Check cookies in Postman
+*No data returned → Ensure database is seeded
+*Migration errors → Re-run migrate and upgrade
 
 ---
 
 ##  Future Improvements
 
-* Add JWT authentication
-* Add search and filtering
-* Add categories/tags for notes
-* Deploy to cloud (Render/Heroku)
+ Add JWT authentication
+ Add search and filtering
+ Add categories/tags for notes
+Deploy to cloud (Render/Heroku)
 
 ---
 
